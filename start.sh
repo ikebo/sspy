@@ -1,3 +1,3 @@
 #!/bin/bash
 cd src
-python3 -m shadowsocks.server -v -k ikebo >>runtime.log 2>&1
+python3 -m shadowsocks.server -c 8588.json -v >>runtime.log 2>&1
